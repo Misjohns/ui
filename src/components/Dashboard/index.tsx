@@ -144,19 +144,16 @@ const Index: React.FunctionComponent = () => {
                 InstructLab is a powerful and accessible tool for advancing generative AI through community collaboration and open-source principles.
                 By contributing your own data, you can help train and refine the language model. <br />
                 <br />
-                To get started, contribute a skill or contribute knowledge.
+                Ready to start training? Before you contribute knowledge or skill, [chat with the models]('/playground/chat') to make sure they're not already trained in it.
               </div>
             </EmptyStateBody>
             <EmptyStateFooter>
               <EmptyStateActions>
-                <Button variant="primary" onClick={() => router.push('/contribute/skill')}>
-                  Contribute Skill
-                </Button>
                 <Button variant="primary" onClick={() => router.push('/contribute/knowledge')}>
                   Contribute Knowledge
                 </Button>
-                <Button variant="primary" onClick={() => router.push('/playground/chat')}>
-                  Chat with the Models
+                <Button variant="primary" onClick={() => router.push('/contribute/skill')}>
+                  Contribute Skill
                 </Button>
               </EmptyStateActions>
               <EmptyStateActions>
